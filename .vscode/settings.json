@@ -1,0 +1,42 @@
+{
+    "explorer.compactFolders": false,
+    "editor.insertSpaces": false,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "D2Coding",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/bin": true,
+        "**/obj": true,
+        //"**/node_modules": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/**.js": {
+            "when": "$(basename).tsx"
+        }
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../../dist/css",
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../../dist/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.includeItems": [
+        "/20_Web/Console/src/scss/app.scss"
+    ]
+}
